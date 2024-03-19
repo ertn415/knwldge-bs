@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+.imgSlider{
+    height: 600px;
+}
+
+body{
+    padding-top: 50px;
+}
+
+.hakkimizda{
+    background-color: #f2f2f2;
+}
+
+.ayrac{
+    border: none;
+    border: 2px solid black;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.ibeyaz{
+    color: #343a40;
+    position: relative;
+    top: -57px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+
+.igri{
+    color: #343a40;
+    position: relative;
+    top: -57px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.ekipCard img:hover{
+    opacity: 0.8;
+    transition: .3s;
+}
+
+.galeri{
+    background-color: #f2f2f2;
+}
+
+.figure:hover{
+    opacity: 0.8;
+    transition: .3s;
+}
+
+.form{
+    text-align: left;
+}
